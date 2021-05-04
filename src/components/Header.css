@@ -1,0 +1,14 @@
+header {
+	background-color: #5ba4a4;
+	width: 100%;
+}
+
+.background-img {
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	.background-img {
+		src: url(../images/bg-header-mobile.svg);
+	}
+}
