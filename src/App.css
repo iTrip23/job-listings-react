@@ -73,3 +73,11 @@ select {
 * {
 	font-family: "Spartan", sans-serif;
 }
+
+body {
+	background-color: var(--Background);
+}
+
+label {
+	cursor: pointer;
+}

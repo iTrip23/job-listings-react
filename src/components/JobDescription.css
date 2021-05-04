@@ -4,6 +4,9 @@
 
 .name-and-labels {
 	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	/* width: auto; */
 }
 
 .job-info {
@@ -13,17 +16,59 @@
 .company-role-info {
 	display: flex;
 	flex-direction: column;
+	margin-left: 2rem;
 }
 
 .job-description-info {
 	display: flex;
 	flex-direction: column;
 }
+.company-logo {
+	height: 6rem;
+}
 
 .job-position {
 	width: 40vw;
+	font-size: 1.3rem;
+	cursor: pointer;
+	margin: 0.4rem 0;
+}
+
+.job-position:hover {
+	color: var(--Primary);
 }
 
 .middle-dot {
-	color: var();
+	color: var(--Primary);
+	font-size: 1rem;
+	padding: 0 1rem;
+}
+
+.company-name {
+	color: var(--Primary);
+	font-size: 1rem;
+	margin-right: 1rem;
+}
+
+p {
+	color: var(--Primary);
+}
+
+.label-new {
+	background-color: var(--Primary);
+	color: var(--FilterTabs);
+	font-size: 0.7rem;
+	margin: 0 0.5rem;
+	padding: 0.2rem 0.4rem;
+	border-radius: 1rem;
+	font-weight: 700;
+}
+
+.label-featured {
+	background-color: var(--VeryDarkCyan);
+	color: var(--FilterTabs);
+	font-size: 0.7rem;
+	padding: 0.2rem 0.4rem;
+	border-radius: 1rem;
+	font-weight: 700;
 }

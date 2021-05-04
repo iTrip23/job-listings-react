@@ -8,8 +8,8 @@ const JobDescription = ({ job: { logo, company, isNew, featured, position, poste
 			<div className='company-role-info'>
 				<div className='name-and-labels'>
 					<h3 className='company-name'>{company}</h3>
-					{isNew ? <label className='label-new'>New</label> : null}
-					{featured ? <label className='label-featured'>Featured</label> : null}
+					{isNew ? <div className='label-new'>NEW!</div> : null}
+					{featured ? <label className='label-featured'>FEATURED</label> : null}
 				</div>
 				<div className='job-description-info'>
 					<h2 className='job-position'>{position}</h2>

@@ -1,3 +1,18 @@
 .label-container {
 	display: flex;
 }
+
+.languages-tools {
+	color: var(--Primary);
+	background-color: var(--Background);
+	padding: 0.3rem 0.7rem;
+	margin: 0 0.5rem;
+	border-radius: 0.3rem;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.languages-tools:hover {
+	background-color: var(--Primary);
+	color: var(--Background);
+}
