@@ -69,3 +69,7 @@ select {
 	--DarkCyan: hsl(180, 8%, 52%);
 	--VeryDarkCyan: hsl(180, 14%, 20%);
 }
+
+* {
+	font-family: "Spartan", sans-serif;
+}

@@ -1,0 +1,29 @@
+.job-description-container {
+	display: flex;
+}
+
+.name-and-labels {
+	display: flex;
+}
+
+.job-info {
+	display: flex;
+}
+
+.company-role-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.job-description-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.job-position {
+	width: 40vw;
+}
+
+.middle-dot {
+	color: var();
+}

@@ -1,14 +1,14 @@
 import React from 'react';
-import HeaderBackgroundDesktop from '../images/bg-header-desktop.svg';
-import HeaderBackgroundMobile from '../images/bg-header-mobile.svg';
 import './Header.css';
 
-
 const Header = () => {
-	const imgEl = window.innerHeight >= 650 ? HeaderBackgroundDesktop : HeaderBackgroundMobile;
+	// let screenWidthEl;
+	// window.addEventListener('resize', () => {
+	// 	screenWidthEl = window.innerWidth;
+	// })
 	return (
 		<header>
-			<img src={imgEl} alt='header background' className='background-img'/>
+			<img src='./images/bg-header-desktop.svg' alt='header background' className='background-img' />
 		</header>
 	)
 }
