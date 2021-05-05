@@ -6,6 +6,10 @@
 	margin: 2rem auto;
 	background-color: white;
 	padding: 2rem;
-	border-radius: 0.5rem;
+	border-radius: 0.4rem;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.border-left {
+	border-left: 0.4rem solid var(--DarkCyan);
 }
