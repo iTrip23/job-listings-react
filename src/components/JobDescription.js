@@ -11,8 +11,8 @@ const JobDescription = ({ job: { logo, company, isNew, featured, position, poste
 					{isNew ? <div className='label-new'>NEW!</div> : null}
 					{featured ? <label className='label-featured'>FEATURED</label> : null}
 				</div>
+				<h2 className='job-position'>{position}</h2>
 				<div className='job-description-info'>
-					<h2 className='job-position'>{position}</h2>
 					<div className='job-info'>
 						<p>{postedAt}</p>
 						<span className='middle-dot'>&middot;</span>
