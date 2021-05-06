@@ -22,6 +22,7 @@ const JobDescription = ({ job: { logo, company, isNew, featured, position, poste
 					</div>
 				</div>
 			</div>
+			<hr className='mobile' />
 		</div>
 	)
 }

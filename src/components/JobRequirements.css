@@ -24,7 +24,7 @@
 	}
 
 	.languages-tools {
-		margin-left: 0;
-		margin-right: 0.5rem;
+		font-size: 0.8rem;
+		margin: 0.7rem 0.7rem 0 0;
 	}
 }
