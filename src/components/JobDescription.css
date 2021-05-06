@@ -70,3 +70,19 @@ p {
 	border-radius: 1rem;
 	font-weight: 700;
 }
+
+@media (max-width: 600px) {
+	.company-logo {
+		height: 4rem;
+		position: absolute;
+		top: -15%;
+		left: 1rem;
+	}
+
+	.company-role-info {
+		margin-left: 0;
+	}
+	.company-name {
+		margin: 0;
+	}
+}

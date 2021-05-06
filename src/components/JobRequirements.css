@@ -16,3 +16,15 @@
 	background-color: var(--Primary);
 	color: var(--Background);
 }
+
+@media (max-width: 600px) {
+	.label-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.languages-tools {
+		margin-left: 0;
+		margin-right: 0.5rem;
+	}
+}

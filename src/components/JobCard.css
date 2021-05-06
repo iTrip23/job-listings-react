@@ -13,3 +13,14 @@
 .border-left {
 	border-left: 0.4rem solid var(--DarkCyan);
 }
+
+@media (max-width: 600px) {
+	.job-card {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: 90vw;
+		padding: 1rem;
+		margin: 3rem auto;
+	}
+}
