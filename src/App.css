@@ -81,3 +81,30 @@ body {
 label {
 	cursor: pointer;
 }
+
+.parent-element {
+	position: relative;
+}
+
+/* Filter Tags Container */
+
+.tags-container {
+	width: 80vw;
+	margin: auto;
+	background-color: white;
+	position: relative;
+	display: flex;
+	padding: 1.5rem 2rem 2rem 2rem;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 0.4rem;
+}
+
+@media (max-width: 600px) {
+	.tags-container {
+		width: 90vw;
+		margin: auto;
+		padding: 1rem 1.5rem 1.5rem 1.5rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

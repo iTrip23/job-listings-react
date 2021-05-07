@@ -1,0 +1,42 @@
+.tag {
+	background-color: var(--FilterTabs);
+	color: var(--Primary);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 0.4rem 0 0 0.4rem;
+	margin-right: 1rem;
+	margin-top: 0.5rem;
+}
+
+.filter-tag {
+	padding: 0 0.6rem;
+	font-weight: 700;
+	cursor: default;
+}
+
+.remove-icon {
+	display: inline-block;
+	background-color: var(--Primary);
+	padding: 0.6rem;
+	border-radius: 0 0.4rem 0.4rem 0;
+	cursor: pointer;
+}
+
+.remove-icon:hover {
+	background-color: var(--VeryDarkCyan);
+}
+
+@media (max-width: 600px) {
+	.tag {
+		font-size: 0.8rem;
+		margin: 0 0.5rem 0.5rem 0;
+	}
+	.filter-tag {
+		padding: 0 0.3rem;
+		font-size: 0.8rem;
+	}
+	.remove-icon {
+		padding: 0.4rem;
+	}
+}
