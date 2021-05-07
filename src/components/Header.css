@@ -9,4 +9,7 @@
 	.background-img {
 		background-image: url("../bg-header-mobile.svg");
 	}
+	.background-img {
+		height: 20vh;
+	}
 }
